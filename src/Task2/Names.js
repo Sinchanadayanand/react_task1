@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Name from './Name';
 import Places from './Places';
 import Dobs from './Dobs';
-
 class Names extends Component {
     render() {
         return (
@@ -17,5 +16,4 @@ class Names extends Component {
         );
     }
 }
-
 export default Names;

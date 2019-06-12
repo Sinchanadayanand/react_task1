@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
  import './Signup.css';
-
+ import Signin from './Signin';
 function Signup() {
   return (
     <div className="App1">
@@ -17,8 +16,8 @@ function Signup() {
          <input className="input" name="confirmation" value=""></input><br></br><br></br>
          <input id="a" type="submit" value="create my account"></input>
       </form>
+      <Signin/>
     </div>
   );
 }
-
 export default Signup;
