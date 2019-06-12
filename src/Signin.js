@@ -7,8 +7,8 @@ function Signin() {
     <div className="App2">
         <h1>signin</h1>
      <form >
-         <input name="name" value="Email address"></input><br></br>
-         <br></br><input name="email" value="passward"></input><br></br>
+          <input id="input" name="name" value="Email address"></input><br></br> 
+         <br></br><input id="input" name="email" value="passward"></input><br></br>
          <br></br><input id="b" type="submit" value="login"></input><br></br>
          <h6>
            forgot your passward?

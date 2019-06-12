@@ -1,12 +1,25 @@
 .App1 {
     text-align: center;
     display:block;
-    background-color:rgb(241, 234, 234);
+    background-color:rgb(241, 237, 237);
     width: 500px;
+   height: 550px;
     margin-left: 400px;
     
   }
   #a{
-      background-color:rgb(75, 176, 216);
+      background-color:rgb(99, 183, 238);
   }
- 
+  h4{
+      margin-right: 80px;
+      text-align: center;
+  }
+  body{
+      background-color: rgb(17, 17, 17);
+  }
+  #h{
+      margin-right: 130px;
+  }
+  #hh{
+    margin-right: 100px;
+}

@@ -7,14 +7,14 @@ function Signup() {
     <div className="App1">
         <h1>signup</h1>
      <form >
-         Name<br></br><br></br>
-         <input name="name" value=""></input><br></br>
-         Email<br></br>
-         <input name="email" value=""></input><br></br>
-         Passward<br></br>
-         <input name="passward" value=""></input><br></br>
-         Confirmation<br></br>
-         <input name="confirmation" value=""></input><br></br><br></br>
+         <h4 id="h">Name</h4>
+         <input name="name" value=""></input>
+         <h4 id="h">Email</h4>
+         <input className="input" name="email" value=""></input>
+         <h4 id="hh">Passward</h4>
+         <input className="input" name="passward" value=""></input>
+         <h4>Confirmation</h4>
+         <input className="input" name="confirmation" value=""></input><br></br><br></br>
          <input id="a" type="submit" value="create my account"></input>
       </form>
     </div>
