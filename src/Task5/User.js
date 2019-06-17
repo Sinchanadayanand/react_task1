@@ -1,4 +1,5 @@
 import React from 'react';
+import Index1 from './Index1';
 
 
     const User = ({ contact}) => {
@@ -9,11 +10,14 @@ import React from 'react';
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">{contact.name}</h5>
-                {/* <h6 class="card-subtitle mb-2 text-muted">{contact.email}</h6>
-                <p class="card-text">{contact.company.catchPhrase}</p> */}
+                <h5 class="card-title">{contact.company}</h5>
+                <h5 class="card-title">{contact.blog}</h5>
+                <h5 class="card-title">{contact.location}</h5>
+                <h5 class="card-title">{contact.bio}</h5>
+            
               </div>
             </div>
-        
+        <Index1/>
         </div>
       )
     };

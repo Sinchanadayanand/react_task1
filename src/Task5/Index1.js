@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import User from './User';
-// import Index from './Index';
+import User1 from './User1';
 
-class Index extends Component {
+class Index1 extends Component {
   render() {
     return (
-        <User contact={this.state.contacts}/> 
+        <User1 contact={this.state.contacts}/> 
     );
   }
   state = {
@@ -14,7 +13,7 @@ class Index extends Component {
   
   componentDidMount() {
     debugger;
-    fetch('https://api.github.com/users/KrunalLathiya')
+    fetch('https://jsonplaceholder.typicode.com/posts/1')
     .then(res => res.json())
     .then((data) => {
       this.setState({ contacts: data })
@@ -24,4 +23,4 @@ class Index extends Component {
   }
 }
 
-export default Index;
+export default Index1;
